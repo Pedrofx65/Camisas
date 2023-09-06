@@ -1,0 +1,95 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid red;
+    padding: 20px;
+}
+
+/* Galeria dos Produtos */ 
+
+.container {
+    background-color: #eee;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.products-container{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 65%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img-1{
+    background-image: url(https://static.kappabrasil.com.br/produtos/camisa-vasco-da-gama-2223-brasil-portugal-kappa-masculina/14/D24-5116-014/D24-5116-014_zoom1.jpg?ts=1683313621);
+}
+
+#img-2{
+    background-image: url(   https://static.kappabrasil.com.br/produtos/camisa-vasco-da-gama-i-2223-kappa-torcedor-masculina/26/D24-4765-026/D24-4765-026_zoom1.jpg?ts=1653946271&ims=544x);
+}
+
+#img-3{
+    background-image: url(https://images.tcdn.com.br/img/img_prod/1044362/camisa_vasco_da_gama_iii_22_23_kappa_torcedor_masculina_branca_1889_1_41aafc3d262aa455c03d300c0bc92e96.jpg);
+}
+
+#img-4{
+    background-image: url(https://acdn.mitiendanube.com/stores/001/986/628/products/d24-3852-172_zoom111-605afa843ebc4a405d16773627932476-640-0.jpg);
+} 
+
+#img-5{
+    background-image: url(https://static.shopvasco.com.br/produtos/camiseta-vasco-da-gama-kappa-watercolor-masculina/14/D24-5065-014/D24-5065-014_zoom1.jpg?ts=1668472040&ims=544x);
+}
+
+#img-6{
+    background-image: url(https://d3ugyf2ht6aenh.cloudfront.net/stores/002/152/760/products/camisa-kappa-vasco-da-gama-treino-2023-2024-oficial1-e21c5503964aa247ad16880430537312-640-0.jpg);
+} 
+
+
+
+.button{
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-color: green;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: #eee;
+    transition: 0.5s;
+}
+
+.button:hover{
+background-color: greenyellow;
+}
+
+
+/* Rodapé */
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 40px;
+
+}
+
